@@ -60,3 +60,8 @@ def calendar(m,y):
         if (i + start_days) % 7 == 0:
             print('\n', end='')
     
+def yearcalendar(y):
+    for i in range (1,13):
+        a = calendar(i,y)
+        print(a)
+        print('\n')
